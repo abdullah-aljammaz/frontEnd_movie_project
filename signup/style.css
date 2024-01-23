@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=El+Messiri:wght@500&family=Nunito+Sans:opsz@6..12&family=Poppins:wght@300&display=swap");
+:root {
+  --main-color: #161a30;
+  --second-color: #31304d;
+  --font-color: #b6bbc4;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--font-color);
+  background-color: var(--main-color);
+  font-family: "Cairo", sans-serif;
+  font-family: "El Messiri", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 12vh;
+  /* height: 100%; */
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+}
+.father {
+  width: 45%;
+  height: 60%;
+  border-radius: 0.5%;
+  box-shadow: 0 0 20px 0px black;
+  background-color: #31304d;
+  position: relative;
+  font-size: 2rem;
+}
+.father .title {
+  position: relative;
+}
+.title {
+  margin-top: 5%;
+}
+.title h1,
+p {
+  text-align: center;
+}
+.title h1 {
+  margin-bottom: 6%;
+  /* opacity: .9; */
+}
+.title p {
+  margin-bottom: 6%;
+  opacity: 0.5;
+}
+.inputs {
+  margin-top: 6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+.inputs span {
+  margin-bottom: 10%;
+  position: relative;
+}
+
+.inputs input {
+  padding: 15px;
+  border-radius: 2%;
+  text-align: center;
+  transition-duration: 400ms;
+  transition-property: all;
+
+  background-color: var(--main-color);
+  opacity: 0.5;
+  cursor: pointer;
+}
+.inputs input:focus {
+  outline: none;
+  scale: 1.2;
+  opacity: 1;
+  background-color: var(--main-color);
+  cursor: text;
+}
+.loginss {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4%;
+}
+.loginss button {
+  background-color: var(--main-color);
+  margin-bottom: 3%;
+  /* padding: .6%; */
+  width: 15rem;
+  height: 4rem;
+  transition-duration: 400ms;
+  transition-property: all;
+}
+.loginss button:hover {
+  scale: 1.1;
+}
+input.text-entered {
+  background-color: var(--main-color);
+  color: white;
+  opacity: 1;
+}

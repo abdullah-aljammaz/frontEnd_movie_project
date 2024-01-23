@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=El+Messiri:wght@500&family=Nunito+Sans:opsz@6..12&family=Poppins:wght@300&display=swap");
+:root {
+  --main-color: #161a30;
+  --second-color: #31304d;
+  --font-color: #b6bbc4;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--font-color);
+  background-color: var(--main-color);
+  font-family: "Cairo", sans-serif;
+  font-family: "El Messiri", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 12vh;
+  /* height: 100%; */
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
