@@ -119,6 +119,8 @@
       </ul>
       <p class="rights">&copy; 2024 | Show Time</p>
     </footer>
-    
+    <?php 
+    "EH"
+    ?>
   </body>
 </html>

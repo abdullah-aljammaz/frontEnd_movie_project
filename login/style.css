@@ -26,33 +26,34 @@ main {
   margin-right: auto;
   margin-bottom: 5%;
 }
-.father{
+.father {
   width: 45%;
   height: 60%;
-  border-radius: .5%;
+  border-radius: 0.5%;
   box-shadow: 0 0 20px 0px black;
   background-color: #31304d;
   position: relative;
-  font-size:2rem;
+  font-size: 2rem;
 }
-.father .title{
-position: relative;
+.father .title {
+  position: relative;
 }
-.title{
+.title {
   margin-top: 5%;
 }
-.title h1,p{
+.title h1,
+p {
   text-align: center;
 }
-.title h1{
-margin-bottom: 6%;
-/* opacity: .9; */
-}
-.title p{
+.title h1 {
   margin-bottom: 6%;
-  opacity: .5;
-  }
-.inputs{
+  /* opacity: .9; */
+}
+.title p {
+  margin-bottom: 6%;
+  opacity: 0.5;
+}
+.inputs {
   margin-top: 6%;
   display: flex;
   flex-direction: column;
@@ -60,37 +61,35 @@ margin-bottom: 6%;
   align-items: center;
   gap: 10%;
 }
-.inputs span{
+.inputs span {
   margin-bottom: 10%;
   position: relative;
 }
 
-.inputs input{
-padding: 15px;
-border-radius: 2%;
-text-align: center;
-transition-duration: 400ms;
-transition-property: all;
-background-color: var(--main-color);
-opacity: .5;
-cursor: pointer;
+.inputs input {
+  padding: 15px;
+  border-radius: 2%;
+  text-align: center;
+  transition-duration: 400ms;
+  transition-property: all;
+  background-color: var(--main-color);
+  opacity: 0.5;
+  cursor: pointer;
 }
-.inputs input:focus{
+.inputs input:focus {
   outline: none;
   scale: 1.2;
   opacity: 1;
   background-color: var(--main-color);
   cursor: text;
-  
 }
-.loginss{
+.loginss {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   gap: 4%;
-  
 }
-.loginss button{
+.loginss button {
   background-color: var(--main-color);
   margin-bottom: 3%;
   /* padding: .6%; */
@@ -99,25 +98,26 @@ cursor: pointer;
   transition-duration: 400ms;
   transition-property: all;
 }
-.loginss button:hover{
-scale: 1.1;
+.loginss button:hover {
+  scale: 1.1;
 }
-.save{
+.save {
   position: relative;
   margin-top: 5%;
   left: 6%;
 }
-.save span{
+.save span {
   position: absolute;
   right: 44%;
   bottom: 1em;
   /* margin-bottom: 49px; */
 }
 
-.save *{
-  cursor: pointer;}
-  input.text-entered {
-    background-color: var(--main-color);
-    color: white;
-    opacity: 1;
-  }
+.save * {
+  cursor: pointer;
+}
+input.text-entered {
+  background-color: var(--main-color);
+  color: white;
+  opacity: 1;
+}
